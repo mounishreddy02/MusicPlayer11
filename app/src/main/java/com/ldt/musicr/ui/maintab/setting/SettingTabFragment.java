@@ -135,7 +135,7 @@ public class SettingTabFragment extends MusicServiceNavigationFragment implement
         }
     }
 
-    @OnClick(R.id.switch_to_en)
+    /*@OnClick(R.id.switch_to_en)
     void switchToEN() {
         if(mIsEnglish) return;
         Activity activity = getActivity();
@@ -143,13 +143,13 @@ public class SettingTabFragment extends MusicServiceNavigationFragment implement
             LocaleHelper.setLocale(activity,"en");
            activity.recreate();
         }
-    }
+    }*/
 
     @Override
     public void onSetStatusBarMargin(int value) {
         mStatusBar.getLayoutParams().height = value;
     }
-
+/*
     @OnClick(R.id.switch_to_vi)
     void switchToVI() {
         if(mIsEnglish) {
@@ -160,7 +160,7 @@ public class SettingTabFragment extends MusicServiceNavigationFragment implement
             }
         }
 
-    }
+    }*/
 
     @Override
     public void onPaletteChanged() {
